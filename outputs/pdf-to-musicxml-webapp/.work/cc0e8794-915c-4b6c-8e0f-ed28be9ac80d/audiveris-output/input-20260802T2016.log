@@ -1,0 +1,63 @@
+2026-08-02 20:16:11,313 INFO [input]                 Book.java:560  | 1 sheet in C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\cc0e8794-915c-4b6c-8e0f-ed28be9ac80d\input.pdf
+2026-08-02 20:16:11,485 INFO []                 Book.java:2565 | Stored /book.xml
+2026-08-02 20:16:11,485 INFO []                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\cc0e8794-915c-4b6c-8e0f-ed28be9ac80d\audiveris-output\input.omr
+2026-08-02 20:16:11,492 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-08-02 20:16:11,493 INFO [input]       StepMonitoring.java:98   | LOAD
+2026-08-02 20:16:11,824 INFO [input]            SheetStub.java:1278 | Loaded image #1 2976x4209 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\cc0e8794-915c-4b6c-8e0f-ed28be9ac80d\input.pdf
+2026-08-02 20:16:11,828 INFO [input]       StepMonitoring.java:98   | BINARY
+2026-08-02 20:16:12,736 INFO [input]       StepMonitoring.java:98   | SCALE
+2026-08-02 20:16:12,760 INFO [input]         ScaleBuilder.java:255  | Beam  guessed height: 15 -- mid of [7..24]
+2026-08-02 20:16:12,761 INFO [input]         ScaleBuilder.java:271  | Beam measured height: 13 -- 0.35 of [7..24] range at 141% of needed quorum
+2026-08-02 20:16:12,762 INFO [input]         ScaleBuilder.java:401  | Normalized black jitter: 0.00 %
+2026-08-02 20:16:12,762 INFO [input]            ScaleStep.java:65   | Scale{ interline(25,25,25) line(3,3,3) beam(13)}
+2026-08-02 20:16:12,762 INFO [input]       StepMonitoring.java:98   | GRID
+2026-08-02 20:16:13,131 INFO [input]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-08-02 20:16:13,157 INFO [input]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(25,25,25)
+2026-08-02 20:16:13,333 INFO [input]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4, 5] #2[6, 7, 8, 9, 10]
+2026-08-02 20:16:13,396 INFO [input]        BarsRetriever.java:1305 | System#1
+2026-08-02 20:16:13,396 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:2-3}
+2026-08-02 20:16:13,396 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:4-5}
+2026-08-02 20:16:13,396 INFO [input]        BarsRetriever.java:1305 | System#2
+2026-08-02 20:16:13,396 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:7-8}
+2026-08-02 20:16:13,397 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:9-10}
+2026-08-02 20:16:13,650 INFO [input]        SystemManager.java:779  | 5 parts along 2 systems
+2026-08-02 20:16:13,651 INFO [input]                 Book.java:543  | Created scores: [{Score 1}]
+2026-08-02 20:16:13,652 INFO [input]       StepMonitoring.java:98   | HEADERS
+2026-08-02 20:16:14,806 INFO [input]       StepMonitoring.java:98   | STEM_SEEDS
+2026-08-02 20:16:14,862 INFO [input]        StemSeedsStep.java:86   | stem(4 max:5)
+2026-08-02 20:16:14,918 INFO [input]       StepMonitoring.java:98   | BEAMS
+2026-08-02 20:16:20,376 INFO [input]       StepMonitoring.java:98   | LEDGERS
+2026-08-02 20:16:20,683 INFO [input]       StepMonitoring.java:98   | HEADS
+2026-08-02 20:16:28,359 INFO [input]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.5,R:0.4] NOTEHEAD_BLACK[L:0.5,R:0.4]}
+2026-08-02 20:16:28,360 INFO [input]       StepMonitoring.java:98   | STEMS
+2026-08-02 20:16:29,460 INFO [input]       StepMonitoring.java:98   | REDUCTION
+2026-08-02 20:16:29,593 INFO [input]        ReductionStep.java:105  | Stems free length median value: 88 pixels, 3.5 interlines
+2026-08-02 20:16:29,598 INFO [input]       StepMonitoring.java:98   | CUE_BEAMS
+2026-08-02 20:16:29,599 INFO [input]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-08-02 20:16:29,599 INFO [input]       StepMonitoring.java:98   | TEXTS
+2026-08-02 20:16:29,902 WARN [input]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-08-02 20:16:29,902 INFO [input]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-08-02 20:16:29,909 INFO [input]       StepMonitoring.java:98   | MEASURES
+2026-08-02 20:16:29,919 INFO [input]                 Page.java:307  | 8 raw measures: [4 in system#1, 4 in system#2]
+2026-08-02 20:16:29,919 INFO [input]       StepMonitoring.java:98   | CHORDS
+2026-08-02 20:16:29,932 INFO [input]       StepMonitoring.java:98   | CURVES
+2026-08-02 20:16:31,467 INFO [input]         SlursBuilder.java:240  | Slurs: 32
+2026-08-02 20:16:31,522 INFO [input]      SegmentsBuilder.java:155  | Segments: 35
+2026-08-02 20:16:31,539 INFO [input]       StepMonitoring.java:98   | SYMBOLS
+2026-08-02 20:16:32,761 INFO [input]       StepMonitoring.java:98   | LINKS
+2026-08-02 20:16:32,809 INFO [input]       StepMonitoring.java:98   | RHYTHMS
+2026-08-02 20:16:32,863 INFO [input]       StepMonitoring.java:98   | PAGE
+2026-08-02 20:16:32,873 WARN [input]         MeasureFixer.java:343  | System#1 No target duration for measures local IDs [1, 2, 3, 4], please check time signatures
+2026-08-02 20:16:32,874 WARN [input]         MeasureFixer.java:343  | System#2 No target duration for measures local IDs [5, 6, 7], please check time signatures
+2026-08-02 20:16:32,877 INFO [input]                 Book.java:2584 | Book{input} storing
+2026-08-02 20:16:32,961 INFO [input]                 Book.java:2565 | Stored /book.xml
+2026-08-02 20:16:33,214 INFO [input]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-08-02 20:16:33,940 INFO [input]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-08-02 20:16:33,940 INFO [input]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\cc0e8794-915c-4b6c-8e0f-ed28be9ac80d\audiveris-output\input.omr
+2026-08-02 20:16:33,946 INFO [input]            SheetStub.java:1655 | Sheet disposed
+2026-08-02 20:16:33,989 INFO [input]                 Book.java:2050 | End of Stub#1
+2026-08-02 20:16:33,989 INFO [input]                 Book.java:2057 | End of Book{input}
+2026-08-02 20:16:34,664 INFO [input]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-08-02 20:16:35,136 INFO [input]      PartwiseBuilder.java:2706 | Exporting sheet(s): [#1]
+2026-08-02 20:16:35,256 INFO [input]        ScoreExporter.java:164  | Score input exported to C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\cc0e8794-915c-4b6c-8e0f-ed28be9ac80d\audiveris-output\input.mxl
+2026-08-02 20:16:35,309 INFO [input]                Score.java:181  | Closing {Score 1}

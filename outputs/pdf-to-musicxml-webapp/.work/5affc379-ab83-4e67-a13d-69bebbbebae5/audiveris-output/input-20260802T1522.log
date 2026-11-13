@@ -1,0 +1,78 @@
+2026-08-02 15:22:20,568 INFO [input]                 Book.java:560  | 5 sheets in C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\input.pdf
+2026-08-02 15:22:20,701 INFO []                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:22:20,701 INFO []                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\audiveris-output\input.omr
+2026-08-02 15:22:20,708 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2#3#4#5]
+2026-08-02 15:22:20,709 INFO [input#1]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:22:21,087 INFO [input#1]            SheetStub.java:1278 | Loaded image #1 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\input.pdf
+2026-08-02 15:22:21,108 WARN [input#1]            SheetStub.java:411  | Too large image: 217,458,800 pixels (vs 20,000,000 max)
+2026-08-02 15:22:21,109 INFO [input#1]                 Book.java:543  | Created scores: []
+2026-08-02 15:22:21,109 INFO [input#1]            SheetStub.java:1194 | Sheet input#1 flagged as invalid.
+2026-08-02 15:22:21,110 INFO [input#1]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:22:21,110 WARN [input#1]                 Book.java:2044 | Error processing stub
+2026-08-02 15:22:21,110 INFO [input#1]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:22:21,134 INFO [input#1]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:22:21,337 INFO [input#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-08-02 15:22:21,338 INFO [input#1]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\audiveris-output\input.omr
+2026-08-02 15:22:21,343 INFO [input#1]            SheetStub.java:1655 | Sheet#1 disposed
+2026-08-02 15:22:21,365 INFO [input#1]                 Book.java:2050 | End of Stub#1
+2026-08-02 15:22:21,367 INFO [input#2]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:22:21,504 INFO [input#2]            SheetStub.java:1278 | Loaded image #2 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\input.pdf
+2026-08-02 15:22:21,523 WARN [input#2]            SheetStub.java:411  | Too large image: 217,458,800 pixels (vs 20,000,000 max)
+2026-08-02 15:22:21,524 INFO [input#2]                 Book.java:543  | Created scores: []
+2026-08-02 15:22:21,524 INFO [input#2]            SheetStub.java:1194 | Sheet input#2 flagged as invalid.
+2026-08-02 15:22:21,524 INFO [input#2]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:22:21,524 WARN [input#2]                 Book.java:2044 | Error processing stub
+2026-08-02 15:22:21,525 INFO [input#2]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:22:21,575 INFO [input#2]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:22:21,577 INFO [input#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-08-02 15:22:21,577 INFO [input#2]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\audiveris-output\input.omr
+2026-08-02 15:22:21,585 INFO [input#2]            SheetStub.java:1655 | Sheet#2 disposed
+2026-08-02 15:22:21,602 INFO [input#2]                 Book.java:2050 | End of Stub#2
+2026-08-02 15:22:21,602 INFO [input#3]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:22:21,739 INFO [input#3]            SheetStub.java:1278 | Loaded image #3 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\input.pdf
+2026-08-02 15:22:21,756 WARN [input#3]            SheetStub.java:411  | Too large image: 217,458,800 pixels (vs 20,000,000 max)
+2026-08-02 15:22:21,757 INFO [input#3]                 Book.java:543  | Created scores: []
+2026-08-02 15:22:21,757 INFO [input#3]            SheetStub.java:1194 | Sheet input#3 flagged as invalid.
+2026-08-02 15:22:21,757 INFO [input#3]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:22:21,757 WARN [input#3]                 Book.java:2044 | Error processing stub
+2026-08-02 15:22:21,757 INFO [input#3]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:22:21,787 INFO [input#3]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:22:21,789 INFO [input#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-08-02 15:22:21,789 INFO [input#3]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\audiveris-output\input.omr
+2026-08-02 15:22:21,798 INFO [input#3]            SheetStub.java:1655 | Sheet#3 disposed
+2026-08-02 15:22:21,818 INFO [input#3]                 Book.java:2050 | End of Stub#3
+2026-08-02 15:22:21,819 INFO [input#4]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:22:21,935 INFO [input#4]            SheetStub.java:1278 | Loaded image #4 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\input.pdf
+2026-08-02 15:22:21,957 WARN [input#4]            SheetStub.java:411  | Too large image: 217,458,800 pixels (vs 20,000,000 max)
+2026-08-02 15:22:21,957 INFO [input#4]                 Book.java:543  | Created scores: []
+2026-08-02 15:22:21,957 INFO [input#4]            SheetStub.java:1194 | Sheet input#4 flagged as invalid.
+2026-08-02 15:22:21,957 INFO [input#4]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:22:21,958 WARN [input#4]                 Book.java:2044 | Error processing stub
+2026-08-02 15:22:21,958 INFO [input#4]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:22:21,982 INFO [input#4]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:22:21,983 INFO [input#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-08-02 15:22:21,983 INFO [input#4]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\audiveris-output\input.omr
+2026-08-02 15:22:21,989 INFO [input#4]            SheetStub.java:1655 | Sheet#4 disposed
+2026-08-02 15:22:22,008 INFO [input#4]                 Book.java:2050 | End of Stub#4
+2026-08-02 15:22:22,009 INFO [input#5]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:22:22,106 INFO [input#5]            SheetStub.java:1278 | Loaded image #5 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\input.pdf
+2026-08-02 15:22:22,125 WARN [input#5]            SheetStub.java:411  | Too large image: 217,458,800 pixels (vs 20,000,000 max)
+2026-08-02 15:22:22,125 INFO [input#5]                 Book.java:543  | Created scores: []
+2026-08-02 15:22:22,125 INFO [input#5]            SheetStub.java:1194 | Sheet input#5 flagged as invalid.
+2026-08-02 15:22:22,125 INFO [input#5]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:22:22,126 WARN [input#5]                 Book.java:2044 | Error processing stub
+2026-08-02 15:22:22,126 INFO [input#5]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:22:22,149 INFO [input#5]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:22:22,150 INFO [input#5]                Sheet.java:1583 | Stored /sheet#5/sheet#5.xml
+2026-08-02 15:22:22,150 INFO [input#5]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5affc379-ab83-4e67-a13d-69bebbbebae5\audiveris-output\input.omr
+2026-08-02 15:22:22,159 INFO [input#5]            SheetStub.java:1655 | Sheet#5 disposed
+2026-08-02 15:22:22,176 INFO [input#5]                 Book.java:2050 | End of Stub#5
+2026-08-02 15:22:22,177 INFO [input]                 Book.java:2057 | End of Book{input}
+2026-08-02 15:22:22,177 INFO [input]                 Book.java:596  | Could not export since transcription did not complete successfully
+2026-08-02 15:22:22,177 WARN [input]                  CLI.java:956  | Exception occurred java.lang.Exception: Error in export
+java.lang.Exception: Error in export
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:930)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)

@@ -1,0 +1,56 @@
+2026-08-02 15:41:27,694 INFO [input]                 Book.java:560  | 1 sheet in C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\067bc071-2e9f-4ddf-bd78-f7a297f5b5dc\input.pdf
+2026-08-02 15:41:27,848 INFO []                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:41:27,849 INFO []                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\067bc071-2e9f-4ddf-bd78-f7a297f5b5dc\audiveris-output\input.omr
+2026-08-02 15:41:27,858 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-08-02 15:41:27,860 INFO [input]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:41:28,404 INFO [input]            SheetStub.java:1278 | Loaded image #1 2479x3508 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\067bc071-2e9f-4ddf-bd78-f7a297f5b5dc\input.pdf
+2026-08-02 15:41:28,407 INFO [input]       StepMonitoring.java:98   | BINARY
+2026-08-02 15:41:29,028 INFO [input]       StepMonitoring.java:98   | SCALE
+2026-08-02 15:41:29,049 INFO [input]         ScaleBuilder.java:255  | Beam  guessed height: 13 -- mid of [6..20]
+2026-08-02 15:41:29,050 INFO [input]         ScaleBuilder.java:271  | Beam measured height: 12 -- 0.43 of [6..20] range at 308% of needed quorum
+2026-08-02 15:41:29,050 INFO [input]         ScaleBuilder.java:401  | Normalized black jitter: 4.76 %
+2026-08-02 15:41:29,050 INFO [input]            ScaleStep.java:65   | Scale{ interline(20,21,21) line(2,2,3) beam(12)}
+2026-08-02 15:41:29,050 INFO [input]       StepMonitoring.java:98   | GRID
+2026-08-02 15:41:29,646 INFO [input]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-08-02 15:41:29,710 INFO [input]    ClustersRetriever.java:326  | Retrieved raw line clusters: 10 of sizes [5] with interline(20,21,21)
+2026-08-02 15:41:29,994 INFO [input]            PeakGraph.java:310  | Systems: #1[1] #2[2] #3[3] #4[4] #5[5] #6[6] #7[7] #8[8] #9[9] #10[10]
+2026-08-02 15:41:30,370 INFO [input]        SystemManager.java:134  | Indentation detected for system #1
+2026-08-02 15:41:30,371 INFO [input]        SystemManager.java:779  | 1 part along 10 systems
+2026-08-02 15:41:30,374 INFO [input]                 Book.java:543  | Created scores: [{Score 1}]
+2026-08-02 15:41:30,376 INFO [input]       StepMonitoring.java:98   | HEADERS
+2026-08-02 15:41:31,564 INFO [input]       StepMonitoring.java:98   | STEM_SEEDS
+2026-08-02 15:41:31,614 INFO [input]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-08-02 15:41:31,658 INFO [input]       StepMonitoring.java:98   | BEAMS
+2026-08-02 15:41:35,529 INFO [input]       StepMonitoring.java:98   | LEDGERS
+2026-08-02 15:41:35,802 INFO [input]       StepMonitoring.java:98   | HEADS
+2026-08-02 15:41:41,930 INFO [input]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.5]}
+2026-08-02 15:41:41,930 INFO [input]       StepMonitoring.java:98   | STEMS
+2026-08-02 15:41:42,295 INFO [input]       StepMonitoring.java:98   | REDUCTION
+2026-08-02 15:41:42,379 INFO [input]        ReductionStep.java:105  | Stems free length median value: 73 pixels, 3.5 interlines
+2026-08-02 15:41:42,384 INFO [input]       StepMonitoring.java:98   | CUE_BEAMS
+2026-08-02 15:41:42,384 INFO [input]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-08-02 15:41:42,384 INFO [input]       StepMonitoring.java:98   | TEXTS
+2026-08-02 15:41:42,563 WARN [input]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-08-02 15:41:42,563 INFO [input]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-08-02 15:41:42,572 INFO [input]       StepMonitoring.java:98   | MEASURES
+2026-08-02 15:41:42,580 INFO [input]                 Page.java:307  | 64 raw measures: [6 in system#1, 7 in system#2, 6 in system#3, 7 in system#4, 7 in system#5, 6 in system#6, 6 in system#7, 6 in system#8, 7 in system#9, 6 in system#10]
+2026-08-02 15:41:42,581 INFO [input]       StepMonitoring.java:98   | CHORDS
+2026-08-02 15:41:42,596 INFO [input]       StepMonitoring.java:98   | CURVES
+2026-08-02 15:41:43,330 INFO [input]         SlursBuilder.java:240  | Slurs: 15
+2026-08-02 15:41:43,351 INFO [input]      SegmentsBuilder.java:155  | Segments: 44
+2026-08-02 15:41:43,359 INFO [input]       StepMonitoring.java:98   | SYMBOLS
+2026-08-02 15:41:44,330 INFO [input]       StepMonitoring.java:98   | LINKS
+2026-08-02 15:41:44,364 INFO [input]       StepMonitoring.java:98   | RHYTHMS
+2026-08-02 15:41:44,416 INFO [input]       StepMonitoring.java:98   | PAGE
+2026-08-02 15:41:44,422 INFO [input]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:41:44,497 INFO [input]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:41:44,629 INFO [input]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-08-02 15:41:45,262 INFO [input]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-08-02 15:41:45,262 INFO [input]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\067bc071-2e9f-4ddf-bd78-f7a297f5b5dc\audiveris-output\input.omr
+2026-08-02 15:41:45,269 INFO [input]            SheetStub.java:1655 | Sheet disposed
+2026-08-02 15:41:45,319 INFO [input]                 Book.java:2050 | End of Stub#1
+2026-08-02 15:41:45,320 INFO [input]                 Book.java:2057 | End of Book{input}
+2026-08-02 15:41:45,825 INFO [input]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-08-02 15:41:46,197 INFO [input]      PartwiseBuilder.java:2706 | Exporting sheet(s): [#1]
+2026-08-02 15:41:46,316 INFO [input]        ScoreExporter.java:164  | Score input exported to C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\067bc071-2e9f-4ddf-bd78-f7a297f5b5dc\audiveris-output\input.mxl
+2026-08-02 15:41:46,374 INFO [input]                Score.java:181  | Closing {Score 1}

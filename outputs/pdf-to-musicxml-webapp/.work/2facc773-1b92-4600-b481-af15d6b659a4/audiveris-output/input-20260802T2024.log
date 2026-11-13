@@ -1,0 +1,340 @@
+2026-08-02 20:24:43,353 INFO [input]                 Book.java:560  | 1 sheet in C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\2facc773-1b92-4600-b481-af15d6b659a4\input.pdf
+2026-08-02 20:24:43,563 INFO []                 Book.java:2565 | Stored /book.xml
+2026-08-02 20:24:43,564 INFO []                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\2facc773-1b92-4600-b481-af15d6b659a4\audiveris-output\input.omr
+2026-08-02 20:24:43,572 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1]
+2026-08-02 20:24:43,573 INFO [input]       StepMonitoring.java:98   | LOAD
+2026-08-02 20:24:43,907 INFO [input]            SheetStub.java:1278 | Loaded image #1 2976x4209 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\2facc773-1b92-4600-b481-af15d6b659a4\input.pdf
+2026-08-02 20:24:43,910 INFO [input]       StepMonitoring.java:98   | BINARY
+2026-08-02 20:24:44,792 INFO [input]       StepMonitoring.java:98   | SCALE
+2026-08-02 20:24:44,819 INFO [input]         ScaleBuilder.java:255  | Beam  guessed height: 15 -- mid of [7..24]
+2026-08-02 20:24:44,821 INFO [input]         ScaleBuilder.java:271  | Beam measured height: 13 -- 0.35 of [7..24] range at 106% of needed quorum
+2026-08-02 20:24:44,821 INFO [input]         ScaleBuilder.java:401  | Normalized black jitter: 0.00 %
+2026-08-02 20:24:44,821 INFO [input]            ScaleStep.java:65   | Scale{ interline(25,25,25) line(3,3,3) beam(13)}
+2026-08-02 20:24:44,823 INFO [input]       StepMonitoring.java:98   | GRID
+2026-08-02 20:24:45,378 INFO [input]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-08-02 20:24:45,423 INFO [input]    ClustersRetriever.java:326  | Retrieved raw line clusters: 15 of sizes [5] with interline(25,25,25)
+2026-08-02 20:24:45,700 INFO [input]            PeakGraph.java:310  | Systems: #1[1, 2, 3, 4, 5] #2[6, 7, 8, 9, 10] #3[11, 12, 13, 14, 15]
+2026-08-02 20:24:45,793 INFO [input]        BarsRetriever.java:1305 | System#1
+2026-08-02 20:24:45,794 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:2-3}
+2026-08-02 20:24:45,795 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:4-5}
+2026-08-02 20:24:45,795 INFO [input]        BarsRetriever.java:1305 | System#2
+2026-08-02 20:24:45,796 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:7-8}
+2026-08-02 20:24:45,797 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:9-10}
+2026-08-02 20:24:45,797 INFO [input]        BarsRetriever.java:1305 | System#3
+2026-08-02 20:24:45,797 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:12-13}
+2026-08-02 20:24:45,797 INFO [input]        BarsRetriever.java:1308 |    PartGroup{bracket number:1 barline:true staves:14-15}
+2026-08-02 20:24:46,133 INFO [input]        SystemManager.java:779  | 5 parts along 3 systems
+2026-08-02 20:24:46,134 INFO [input]                 Book.java:543  | Created scores: [{Score 1}]
+2026-08-02 20:24:46,135 INFO [input]       StepMonitoring.java:98   | HEADERS
+2026-08-02 20:24:47,526 INFO [input]       StepMonitoring.java:98   | STEM_SEEDS
+2026-08-02 20:24:47,602 INFO [input]        StemSeedsStep.java:86   | stem(4 max:5)
+2026-08-02 20:24:47,667 INFO [input]       StepMonitoring.java:98   | BEAMS
+2026-08-02 20:24:52,977 INFO [input]       StepMonitoring.java:98   | LEDGERS
+2026-08-02 20:24:53,188 INFO [input]       StepMonitoring.java:98   | HEADS
+2026-08-02 20:25:03,320 INFO [input]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.5,R:0.5] NOTEHEAD_BLACK[L:0.5,R:0.5]}
+2026-08-02 20:25:03,321 INFO [input]       StepMonitoring.java:98   | STEMS
+2026-08-02 20:25:04,176 INFO [input]       StepMonitoring.java:98   | REDUCTION
+2026-08-02 20:25:04,259 INFO [input]        ReductionStep.java:105  | Stems free length median value: 87 pixels, 3.5 interlines
+2026-08-02 20:25:04,262 INFO [input]       StepMonitoring.java:98   | CUE_BEAMS
+2026-08-02 20:25:04,263 INFO [input]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-08-02 20:25:04,263 INFO [input]       StepMonitoring.java:98   | TEXTS
+2026-08-02 20:25:04,508 WARN [input]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-08-02 20:25:04,508 INFO [input]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-08-02 20:25:04,517 INFO [input]       StepMonitoring.java:98   | MEASURES
+2026-08-02 20:25:04,526 INFO [input]                 Page.java:307  | 11 raw measures: [4 in system#1, 4 in system#2, 3 in system#3]
+2026-08-02 20:25:04,527 INFO [input]       StepMonitoring.java:98   | CHORDS
+2026-08-02 20:25:04,543 INFO [input]       StepMonitoring.java:98   | CURVES
+2026-08-02 20:25:06,075 INFO [input]         SlursBuilder.java:240  | Slurs: 32
+2026-08-02 20:25:06,112 INFO [input]      SegmentsBuilder.java:155  | Segments: 22
+2026-08-02 20:25:06,124 INFO [input]       StepMonitoring.java:98   | SYMBOLS
+2026-08-02 20:25:07,073 INFO [input]       StepMonitoring.java:98   | LINKS
+2026-08-02 20:25:07,106 INFO [input]             KeyInter.java:1189 | No effective key before AlterInter#5029{(0.799) staff:7 NATURAL pitch:3.0}
+2026-08-02 20:25:07,131 INFO [input]       StepMonitoring.java:98   | RHYTHMS
+2026-08-02 20:25:07,154 INFO [input]        MeasureRhythm.java:1044 | Measure{#2P1} No timeOffset for HeadChordInter#3872{(0.938/0.938) staff:1 slot#3 dur:1/4}
+2026-08-02 20:25:07,156 INFO [input]                Voice.java:257  | Measure{#2P1} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,157 INFO [input]        MeasureRhythm.java:1044 | Measure{#2P2} No timeOffset for HeadChordInter#3877{(0.866/0.866) staff:2 slot#2 dur:1/2}
+2026-08-02 20:25:07,158 INFO [input]        MeasureRhythm.java:1044 | Measure{#2P3} No timeOffset for HeadChordInter#3887{(0.896/0.896) staff:3 slot#2 dur:1/2}
+2026-08-02 20:25:07,159 INFO [input]        MeasureRhythm.java:1044 | Measure{#2P4} No timeOffset for HeadChordInter#3901{(0.934/0.934) staff:4 slot#5 dur:3/8}
+2026-08-02 20:25:07,159 INFO [input]   AbstractChordInter.java:627  | Measure{#2P4} No timeOffset for HeadChordInter#3901{(0.934/0.934) staff:4 slot#5 dur:3/8}
+2026-08-02 20:25:07,160 INFO [input]        MeasureRhythm.java:1044 | Measure{#2P5} No timeOffset for HeadChordInter#3918{(0.938/0.938) staff:5 slot#3 dur:1/8}
+2026-08-02 20:25:07,161 INFO [input]   AbstractChordInter.java:627  | Measure{#2P5} No timeOffset for HeadChordInter#3918{(0.938/0.938) staff:5 slot#3 dur:1/8}
+2026-08-02 20:25:07,161 INFO [input]                Voice.java:257  | Measure{#2P5} Voice{#1 excess:1/4} too long
+2026-08-02 20:25:07,161 INFO [input]          StackRhythm.java:224  | S1 MeasureStack#2 no correct rhythm
+2026-08-02 20:25:07,162 INFO [input]                Voice.java:257  | Measure{#3P1} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,162 INFO [input]        MeasureRhythm.java:1044 | Measure{#3P2} No timeOffset for HeadChordInter#3880{(0.940/0.940) staff:2 slot#3 dur:3/8}
+2026-08-02 20:25:07,162 INFO [input]   AbstractChordInter.java:627  | Measure{#3P2} No timeOffset for HeadChordInter#3880{(0.940/0.940) staff:2 slot#3 dur:3/8}
+2026-08-02 20:25:07,163 INFO [input]        MeasureRhythm.java:1044 | Measure{#3P3} No timeOffset for HeadChordInter#3890{(0.940/0.940) staff:3 slot#3 dur:3/8}
+2026-08-02 20:25:07,164 INFO [input]   AbstractChordInter.java:627  | Measure{#3P3} No timeOffset for HeadChordInter#3890{(0.940/0.940) staff:3 slot#3 dur:3/8}
+2026-08-02 20:25:07,165 INFO [input]        MeasureRhythm.java:1044 | Measure{#3P4} No timeOffset for HeadChordInter#3907{(0.903/0.903) staff:4 slot#5 dur:1/2}
+2026-08-02 20:25:07,166 INFO [input]        MeasureRhythm.java:1044 | Measure{#3P5} No timeOffset for HeadChordInter#3922{(0.947/0.947) staff:5 slot#3 dur:1/4}
+2026-08-02 20:25:07,167 INFO [input]          StackRhythm.java:224  | S1 MeasureStack#3 no correct rhythm
+2026-08-02 20:25:07,167 INFO [input]                Voice.java:257  | Measure{#4P1} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,168 INFO [input]        MeasureRhythm.java:1044 | Measure{#4P2} No timeOffset for HeadChordInter#3883{(0.909/0.909) staff:2 slot#2 dur:1/2}
+2026-08-02 20:25:07,168 INFO [input]        MeasureRhythm.java:1044 | Measure{#4P3} No timeOffset for HeadChordInter#3893{(0.896/0.896) staff:3 slot#2 dur:1/2}
+2026-08-02 20:25:07,170 INFO [input]        MeasureRhythm.java:1044 | Measure{#4P4} No timeOffset for HeadChordInter#3911{(0.951/0.951) staff:4 slot#5 dur:1/8}
+2026-08-02 20:25:07,171 INFO [input]        MeasureRhythm.java:1044 | Measure{#4P5} No timeOffset for HeadChordInter#3926{(0.938/0.938) staff:5 slot#3 dur:1/4}
+2026-08-02 20:25:07,172 INFO [input]   AbstractChordInter.java:627  | Measure{#4P5} No timeOffset for HeadChordInter#3926{(0.938/0.938) staff:5 slot#3 dur:1/4}
+2026-08-02 20:25:07,172 INFO [input]          StackRhythm.java:224  | S1 MeasureStack#4 no correct rhythm
+2026-08-02 20:25:07,175 INFO [input]                Voice.java:257  | Measure{#5P1} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,176 INFO [input]        MeasureRhythm.java:1044 | Measure{#5P2} No timeOffset for HeadChordInter#3939{(0.906/0.906) staff:7 slot#2 dur:1/4}
+2026-08-02 20:25:07,176 INFO [input]   AbstractChordInter.java:627  | Measure{#5P2} No timeOffset for HeadChordInter#3939{(0.906/0.906) staff:7 slot#2 dur:1/4}
+2026-08-02 20:25:07,177 INFO [input]        MeasureRhythm.java:1044 | Measure{#5P3} No timeOffset for HeadChordInter#3949{(0.920/0.920) staff:8 slot#2 dur:1/4}
+2026-08-02 20:25:07,177 INFO [input]   AbstractChordInter.java:627  | Measure{#5P3} No timeOffset for HeadChordInter#3949{(0.920/0.920) staff:8 slot#2 dur:1/4}
+2026-08-02 20:25:07,178 INFO [input]        MeasureRhythm.java:1044 | Measure{#5P4} No timeOffset for HeadChordInter#3959{(0.935/0.935) staff:9 slot#3 dur:1/8}
+2026-08-02 20:25:07,179 INFO [input]        MeasureRhythm.java:1044 | Measure{#5P5} No timeOffset for HeadChordInter#3977{(0.940/0.940) staff:10 slot#2 dur:1/8}
+2026-08-02 20:25:07,179 INFO [input]   AbstractChordInter.java:627  | Measure{#5P5} No timeOffset for HeadChordInter#3978{(0.951/0.951) staff:10 slot#3 dur:1/8}
+2026-08-02 20:25:07,179 INFO [input]          StackRhythm.java:224  | S2 MeasureStack#5 no correct rhythm
+2026-08-02 20:25:07,180 INFO [input]        MeasureRhythm.java:1044 | Measure{#6P1} No timeOffset for HeadChordInter#3931{(0.886/0.886) staff:6 slot#4 dur:1/2}
+2026-08-02 20:25:07,181 INFO [input]                Voice.java:257  | Measure{#6P2} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,181 INFO [input]        MeasureRhythm.java:1044 | Measure{#6P3} No timeOffset for HeadChordInter#3952{(0.897/0.897) staff:8 slot#2 dur:1/2}
+2026-08-02 20:25:07,183 INFO [input]        MeasureRhythm.java:1044 | Measure{#6P4} No timeOffset for HeadChordInter#3966{(0.946/0.946) staff:9 slot#4 dur:3/16}
+2026-08-02 20:25:07,183 INFO [input]                Voice.java:257  | Measure{#6P4} Voice{#1 excess:1/4} too long
+2026-08-02 20:25:07,184 INFO [input]        MeasureRhythm.java:1044 | Measure{#6P5} No timeOffset for RestChordInter#5074{(0.799/0.799) staff:10 slot#2 dur:1/8}
+2026-08-02 20:25:07,185 INFO [input]   AbstractChordInter.java:627  | Measure{#6P5} No timeOffset for RestChordInter#5074{(0.799/0.799) staff:10 slot#2 dur:1/8}
+2026-08-02 20:25:07,185 INFO [input]   AbstractChordInter.java:627  | Measure{#6P5} No timeOffset for HeadChordInter#3981{(0.942/0.942) staff:10 slot#3 dur:1/8}
+2026-08-02 20:25:07,185 INFO [input]          StackRhythm.java:224  | S2 MeasureStack#6 no correct rhythm
+2026-08-02 20:25:07,186 INFO [input]        MeasureRhythm.java:1044 | Measure{#7P1} No timeOffset for HeadChordInter#3933{(0.893/0.893) staff:6 slot#2 dur:1/2}
+2026-08-02 20:25:07,186 INFO [input]                Voice.java:257  | Measure{#7P2} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,187 INFO [input]        MeasureRhythm.java:1044 | Measure{#7P3} No timeOffset for HeadChordInter#3954{(0.944/0.944) staff:8 slot#2 dur:1/4}
+2026-08-02 20:25:07,187 INFO [input]                Voice.java:257  | Measure{#7P3} Voice{#1 excess:1/4} too long
+2026-08-02 20:25:07,188 INFO [input]                Voice.java:257  | Measure{#7P4} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,188 INFO [input]        MeasureRhythm.java:1044 | Measure{#7P5} No timeOffset for HeadChordInter#3985{(0.918/0.918) staff:10 slot#2 dur:1/2}
+2026-08-02 20:25:07,189 INFO [input]          StackRhythm.java:224  | S2 MeasureStack#7 no correct rhythm
+2026-08-02 20:25:07,190 INFO [input]        MeasureRhythm.java:1044 | Measure{#8P1} No timeOffset for HeadChordInter#3936{(0.938/0.938) staff:6 slot#4 dur:1/4}
+2026-08-02 20:25:07,190 INFO [input]   AbstractChordInter.java:627  | Measure{#8P1} No timeOffset for HeadChordInter#3936{(0.938/0.938) staff:6 slot#4 dur:1/4}
+2026-08-02 20:25:07,191 INFO [input]        MeasureRhythm.java:1044 | Measure{#8P2} No timeOffset for HeadChordInter#3943{(0.936/0.936) staff:7 slot#4 dur:1/8}
+2026-08-02 20:25:07,192 INFO [input]   AbstractChordInter.java:627  | Measure{#8P2} No timeOffset for HeadChordInter#3944{(0.946/0.946) staff:7 slot#5 dur:1/8}
+2026-08-02 20:25:07,192 INFO [input]        MeasureRhythm.java:1044 | Measure{#8P3} No timeOffset for HeadChordInter#3956{(0.894/0.894) staff:8 slot#2 dur:1/2}
+2026-08-02 20:25:07,193 INFO [input]        MeasureRhythm.java:1044 | Measure{#8P4} No timeOffset for HeadChordInter#3972{(0.957/0.957) staff:9 slot#3 dur:1/8}
+2026-08-02 20:25:07,193 INFO [input]   AbstractChordInter.java:627  | Measure{#8P4} No timeOffset for HeadChordInter#3973{(0.946/0.946) staff:9 slot#4 dur:1/8}
+2026-08-02 20:25:07,195 INFO [input]        MeasureRhythm.java:1044 | Measure{#8P5} No timeOffset for HeadChordInter#3988{(0.938/0.938) staff:10 slot#4 dur:1/4}
+2026-08-02 20:25:07,195 INFO [input]   AbstractChordInter.java:627  | Measure{#8P5} No timeOffset for HeadChordInter#3988{(0.938/0.938) staff:10 slot#4 dur:1/4}
+2026-08-02 20:25:07,195 INFO [input]          StackRhythm.java:224  | S2 MeasureStack#8 no correct rhythm
+2026-08-02 20:25:07,196 INFO [input]        MeasureRhythm.java:1044 | Measure{#9P1} No timeOffset for HeadChordInter#3990{(0.904/0.904) staff:11 slot#3 dur:1/2}
+2026-08-02 20:25:07,197 INFO [input]        MeasureRhythm.java:1044 | Measure{#9P2} No timeOffset for RestChordInter#5146{(0.799/0.799) staff:12 slot#4 dur:1/8}
+2026-08-02 20:25:07,198 INFO [input]   AbstractChordInter.java:627  | Measure{#9P2} No timeOffset for RestChordInter#5146{(0.799/0.799) staff:12 slot#4 dur:1/8}
+2026-08-02 20:25:07,198 INFO [input]        MeasureRhythm.java:1044 | Measure{#9P3} No timeOffset for HeadChordInter#4007{(0.928/0.928) staff:13 slot#2 dur:3/8}
+2026-08-02 20:25:07,199 INFO [input]   AbstractChordInter.java:627  | Measure{#9P3} No timeOffset for HeadChordInter#4007{(0.928/0.928) staff:13 slot#2 dur:3/8}
+2026-08-02 20:25:07,200 INFO [input]        MeasureRhythm.java:1044 | Measure{#9P4} No timeOffset for HeadChordInter#4019{(0.945/0.945) staff:14 slot#5 dur:1/4}
+2026-08-02 20:25:07,200 INFO [input]   AbstractChordInter.java:627  | Measure{#9P4} No timeOffset for HeadChordInter#4019{(0.945/0.945) staff:14 slot#5 dur:1/4}
+2026-08-02 20:25:07,201 INFO [input]        MeasureRhythm.java:1044 | Measure{#9P5} No timeOffset for HeadChordInter#4037{(0.898/0.898) staff:15 slot#3 dur:1/2}
+2026-08-02 20:25:07,201 INFO [input]          StackRhythm.java:224  | S3 MeasureStack#9 no correct rhythm
+2026-08-02 20:25:07,202 INFO [input]        MeasureRhythm.java:1044 | Measure{#10P1} No timeOffset for HeadChordInter#3993{(0.885/0.885) staff:11 slot#3 dur:1/2}
+2026-08-02 20:25:07,203 INFO [input]        MeasureRhythm.java:1044 | Measure{#10P2} No timeOffset for HeadChordInter#4002{(0.900/0.900) staff:12 slot#2 dur:1/2}
+2026-08-02 20:25:07,203 INFO [input]        MeasureRhythm.java:1044 | Measure{#10P3} No timeOffset for HeadChordInter#4011{(0.897/0.897) staff:13 slot#3 dur:1/2}
+2026-08-02 20:25:07,206 INFO [input]        MeasureRhythm.java:1044 | Measure{#10P4} No timeOffset for HeadChordInter#4024{(0.938/0.938) staff:14 slot#5 dur:1/8}
+2026-08-02 20:25:07,207 INFO [input]        MeasureRhythm.java:1044 | Measure{#10P5} No timeOffset for HeadChordInter#4040{(0.891/0.891) staff:15 slot#3 dur:1/2}
+2026-08-02 20:25:07,208 INFO [input]          StackRhythm.java:224  | S3 MeasureStack#10 no correct rhythm
+2026-08-02 20:25:07,208 INFO [input]        MeasureRhythm.java:1044 | Measure{#11P1} No timeOffset for HeadChordInter#3995{(0.893/0.893) staff:11 slot#2 dur:1/2}
+2026-08-02 20:25:07,210 INFO [input]        MeasureRhythm.java:1044 | Measure{#11P2} No timeOffset for HeadChordInter#4004{(0.940/0.940) staff:12 slot#2 dur:1/4}
+2026-08-02 20:25:07,210 INFO [input]   AbstractChordInter.java:627  | Measure{#11P2} No timeOffset for HeadChordInter#4004{(0.940/0.940) staff:12 slot#2 dur:1/4}
+2026-08-02 20:25:07,211 INFO [input]        MeasureRhythm.java:1044 | Measure{#11P3} No timeOffset for HeadChordInter#4013{(0.917/0.917) staff:13 slot#2 dur:3/8}
+2026-08-02 20:25:07,211 INFO [input]   AbstractChordInter.java:627  | Measure{#11P3} No timeOffset for HeadChordInter#4013{(0.917/0.917) staff:13 slot#2 dur:3/8}
+2026-08-02 20:25:07,213 INFO [input]        MeasureRhythm.java:1044 | Measure{#11P4} No timeOffset for HeadChordInter#4032{(0.961/0.961) staff:14 slot#5 dur:1/8}
+2026-08-02 20:25:07,214 INFO [input]        MeasureRhythm.java:1044 | Measure{#11P5} No timeOffset for HeadChordInter#4042{(0.920/0.920) staff:15 slot#2 dur:1/2}
+2026-08-02 20:25:07,215 INFO [input]          StackRhythm.java:224  | S3 MeasureStack#11 no correct rhythm
+2026-08-02 20:25:07,216 INFO [input]       StepMonitoring.java:98   | PAGE
+2026-08-02 20:25:07,221 INFO [input]                Voice.java:257  | Measure{#2P1} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,221 INFO [input]                Voice.java:257  | Measure{#2P5} Voice{#1 excess:1/4} too long
+2026-08-02 20:25:07,221 INFO [input]                Voice.java:257  | Measure{#3P1} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,221 INFO [input]                Voice.java:257  | Measure{#4P1} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,221 INFO [input]                Voice.java:257  | Measure{#5P1} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,221 INFO [input]                Voice.java:257  | Measure{#6P2} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,221 INFO [input]                Voice.java:257  | Measure{#6P4} Voice{#1 excess:1/4} too long
+2026-08-02 20:25:07,223 INFO [input]                Voice.java:257  | Measure{#7P2} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,223 INFO [input]                Voice.java:257  | Measure{#7P3} Voice{#1 excess:1/4} too long
+2026-08-02 20:25:07,223 INFO [input]                Voice.java:257  | Measure{#7P4} Voice{#1 excess:1/2} too long
+2026-08-02 20:25:07,224 INFO [input]                 Book.java:2584 | Book{input} storing
+2026-08-02 20:25:07,301 INFO [input]                 Book.java:2565 | Stored /book.xml
+2026-08-02 20:25:07,470 INFO [input]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-08-02 20:25:08,281 INFO [input]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-08-02 20:25:08,283 INFO [input]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\2facc773-1b92-4600-b481-af15d6b659a4\audiveris-output\input.omr
+2026-08-02 20:25:08,288 INFO [input]            SheetStub.java:1655 | Sheet disposed
+2026-08-02 20:25:08,330 INFO [input]                 Book.java:2050 | End of Stub#1
+2026-08-02 20:25:08,331 INFO [input]                 Book.java:2057 | End of Book{input}
+2026-08-02 20:25:08,890 INFO [input]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-08-02 20:25:09,261 INFO [input]      PartwiseBuilder.java:2706 | Exporting sheet(s): [#1]
+2026-08-02 20:25:09,271 WARN [input]      PartwiseBuilder.java:2228 | Error visiting Measure{#7P1} in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.math.Rational.compareTo(org.audiveris.omr.math.Rational)" because "w1.timeOffset" is null
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.lambda$new$0(PartwiseBuilder.java:3718)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(Unknown Source)
+	at java.base/java.util.TimSort.sort(Unknown Source)
+	at java.base/java.util.Arrays.sort(Unknown Source)
+	at java.base/java.util.ArrayList.sortRange(Unknown Source)
+	at java.base/java.util.ArrayList.sort(Unknown Source)
+	at java.base/java.util.Collections.sort(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.<init>(PartwiseBuilder.java:3717)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2057)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3222)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-08-02 20:25:09,275 WARN [input]      PartwiseBuilder.java:2228 | Error visiting Measure{#3P2} in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.math.Rational.compareTo(org.audiveris.omr.math.Rational)" because "w1.timeOffset" is null
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.lambda$new$0(PartwiseBuilder.java:3718)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(Unknown Source)
+	at java.base/java.util.TimSort.sort(Unknown Source)
+	at java.base/java.util.Arrays.sort(Unknown Source)
+	at java.base/java.util.ArrayList.sortRange(Unknown Source)
+	at java.base/java.util.ArrayList.sort(Unknown Source)
+	at java.base/java.util.Collections.sort(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.<init>(PartwiseBuilder.java:3717)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2057)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3222)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-08-02 20:25:09,277 WARN [input]      PartwiseBuilder.java:2228 | Error visiting Measure{#3P3} in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.math.Rational.compareTo(org.audiveris.omr.math.Rational)" because "w1.timeOffset" is null
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.lambda$new$0(PartwiseBuilder.java:3718)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(Unknown Source)
+	at java.base/java.util.TimSort.sort(Unknown Source)
+	at java.base/java.util.Arrays.sort(Unknown Source)
+	at java.base/java.util.ArrayList.sortRange(Unknown Source)
+	at java.base/java.util.ArrayList.sort(Unknown Source)
+	at java.base/java.util.Collections.sort(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.<init>(PartwiseBuilder.java:3717)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2057)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3222)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-08-02 20:25:09,278 WARN [input]      PartwiseBuilder.java:2228 | Error visiting Measure{#7P3} in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.math.Rational.compareTo(org.audiveris.omr.math.Rational)" because "w1.timeOffset" is null
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.lambda$new$0(PartwiseBuilder.java:3718)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(Unknown Source)
+	at java.base/java.util.TimSort.sort(Unknown Source)
+	at java.base/java.util.Arrays.sort(Unknown Source)
+	at java.base/java.util.ArrayList.sortRange(Unknown Source)
+	at java.base/java.util.ArrayList.sort(Unknown Source)
+	at java.base/java.util.Collections.sort(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.<init>(PartwiseBuilder.java:3717)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2057)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3222)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-08-02 20:25:09,280 WARN [input]      PartwiseBuilder.java:2228 | Error visiting Measure{#3P4} in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.math.Rational.compareTo(org.audiveris.omr.math.Rational)" because "w1.timeOffset" is null
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.lambda$new$0(PartwiseBuilder.java:3718)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(Unknown Source)
+	at java.base/java.util.TimSort.sort(Unknown Source)
+	at java.base/java.util.Arrays.sort(Unknown Source)
+	at java.base/java.util.ArrayList.sortRange(Unknown Source)
+	at java.base/java.util.ArrayList.sort(Unknown Source)
+	at java.base/java.util.Collections.sort(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.<init>(PartwiseBuilder.java:3717)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2057)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3222)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-08-02 20:25:09,284 WARN [input]      PartwiseBuilder.java:2228 | Error visiting Measure{#3P5} in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.math.Rational.compareTo(org.audiveris.omr.math.Rational)" because "w1.timeOffset" is null
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.lambda$new$0(PartwiseBuilder.java:3718)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(Unknown Source)
+	at java.base/java.util.TimSort.sort(Unknown Source)
+	at java.base/java.util.Arrays.sort(Unknown Source)
+	at java.base/java.util.ArrayList.sortRange(Unknown Source)
+	at java.base/java.util.ArrayList.sort(Unknown Source)
+	at java.base/java.util.Collections.sort(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.<init>(PartwiseBuilder.java:3717)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2057)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3222)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-08-02 20:25:09,285 WARN [input]      PartwiseBuilder.java:2228 | Error visiting Measure{#7P5} in {Page#1.1}
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.math.Rational.compareTo(org.audiveris.omr.math.Rational)" because "w1.timeOffset" is null
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.lambda$new$0(PartwiseBuilder.java:3718)
+	at java.base/java.util.TimSort.countRunAndMakeAscending(Unknown Source)
+	at java.base/java.util.TimSort.sort(Unknown Source)
+	at java.base/java.util.Arrays.sort(Unknown Source)
+	at java.base/java.util.ArrayList.sortRange(Unknown Source)
+	at java.base/java.util.ArrayList.sort(Unknown Source)
+	at java.base/java.util.Collections.sort(Unknown Source)
+	at org.audiveris.omr.score.PartwiseBuilder$WedgeIterators.<init>(PartwiseBuilder.java:3717)
+	at org.audiveris.omr.score.PartwiseBuilder.processMeasure(PartwiseBuilder.java:2057)
+	at org.audiveris.omr.score.PartwiseBuilder.processPart(PartwiseBuilder.java:2677)
+	at org.audiveris.omr.score.PartwiseBuilder.processSystem(PartwiseBuilder.java:3222)
+	at org.audiveris.omr.score.PartwiseBuilder.processLogicalPart(PartwiseBuilder.java:1874)
+	at org.audiveris.omr.score.PartwiseBuilder.processStub(PartwiseBuilder.java:3173)
+	at org.audiveris.omr.score.PartwiseBuilder.processPartList(PartwiseBuilder.java:2709)
+	at org.audiveris.omr.score.PartwiseBuilder.processScore(PartwiseBuilder.java:2984)
+	at org.audiveris.omr.score.PartwiseBuilder.build(PartwiseBuilder.java:3542)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:122)
+	at org.audiveris.omr.score.ScoreExporter.export(ScoreExporter.java:163)
+	at org.audiveris.omr.sheet.Book.export(Book.java:630)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:927)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)
+2026-08-02 20:25:09,343 INFO [input]        ScoreExporter.java:164  | Score input exported to C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\2facc773-1b92-4600-b481-af15d6b659a4\audiveris-output\input.mxl
+2026-08-02 20:25:09,403 INFO [input]                Score.java:181  | Closing {Score 1}

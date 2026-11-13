@@ -1,0 +1,118 @@
+2026-08-02 15:49:20,086 INFO [input]                 Book.java:560  | 5 sheets in C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\input.pdf
+2026-08-02 15:49:20,264 INFO []                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:49:20,265 INFO []                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\audiveris-output\input.omr
+2026-08-02 15:49:20,274 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2#3#4#5]
+2026-08-02 15:49:20,277 INFO [input#1]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:49:20,701 INFO [input#1]            SheetStub.java:1278 | Loaded image #1 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\input.pdf
+2026-08-02 15:49:20,704 INFO [input#1]       StepMonitoring.java:98   | BINARY
+2026-08-02 15:49:37,424 INFO [input#1]       StepMonitoring.java:98   | SCALE
+2026-08-02 15:49:37,467 WARN [input#1]            SheetStub.java:411  | input#1
+
+ With a too high interline value of 104 pixels,
+ this sheet does not seem to contain multi-line staves.
+
+ This interline value is NOT RELIABLE!
+2026-08-02 15:49:37,468 INFO [input#1]                 Book.java:543  | Created scores: []
+2026-08-02 15:49:37,468 INFO [input#1]            SheetStub.java:1194 | Sheet input#1 flagged as invalid.
+2026-08-02 15:49:37,468 INFO [input#1]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:49:37,468 WARN [input#1]                 Book.java:2044 | Error processing stub
+2026-08-02 15:49:37,469 INFO [input#1]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:49:37,495 INFO [input#1]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:49:39,004 INFO [input#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-08-02 15:49:39,192 INFO [input#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-08-02 15:49:39,192 INFO [input#1]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\audiveris-output\input.omr
+2026-08-02 15:49:39,199 INFO [input#1]            SheetStub.java:1655 | Sheet#1 disposed
+2026-08-02 15:49:39,225 INFO [input#1]                 Book.java:2050 | End of Stub#1
+2026-08-02 15:49:39,226 INFO [input#2]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:49:39,380 INFO [input#2]            SheetStub.java:1278 | Loaded image #2 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\input.pdf
+2026-08-02 15:49:39,381 INFO [input#2]       StepMonitoring.java:98   | BINARY
+2026-08-02 15:49:55,858 INFO [input#2]       StepMonitoring.java:98   | SCALE
+2026-08-02 15:49:55,902 WARN [input#2]            SheetStub.java:411  | input#2
+
+ With a too high interline value of 104 pixels,
+ this sheet does not seem to contain multi-line staves.
+
+ This interline value is NOT RELIABLE!
+2026-08-02 15:49:55,903 INFO [input#2]                 Book.java:543  | Created scores: []
+2026-08-02 15:49:55,903 INFO [input#2]            SheetStub.java:1194 | Sheet input#2 flagged as invalid.
+2026-08-02 15:49:55,903 INFO [input#2]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:49:55,903 WARN [input#2]                 Book.java:2044 | Error processing stub
+2026-08-02 15:49:55,903 INFO [input#2]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:49:55,927 INFO [input#2]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:49:57,368 INFO [input#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2026-08-02 15:49:57,370 INFO [input#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-08-02 15:49:57,370 INFO [input#2]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\audiveris-output\input.omr
+2026-08-02 15:49:57,380 INFO [input#2]            SheetStub.java:1655 | Sheet#2 disposed
+2026-08-02 15:49:57,401 INFO [input#2]                 Book.java:2050 | End of Stub#2
+2026-08-02 15:49:57,401 INFO [input#3]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:49:57,513 INFO [input#3]            SheetStub.java:1278 | Loaded image #3 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\input.pdf
+2026-08-02 15:49:57,514 INFO [input#3]       StepMonitoring.java:98   | BINARY
+2026-08-02 15:50:14,411 INFO [input#3]       StepMonitoring.java:98   | SCALE
+2026-08-02 15:50:14,420 WARN [input#3]            SheetStub.java:411  | input#3
+
+ With a too high interline value of 104 pixels,
+ this sheet does not seem to contain multi-line staves.
+
+ This interline value is NOT RELIABLE!
+2026-08-02 15:50:14,420 INFO [input#3]                 Book.java:543  | Created scores: []
+2026-08-02 15:50:14,422 INFO [input#3]            SheetStub.java:1194 | Sheet input#3 flagged as invalid.
+2026-08-02 15:50:14,422 INFO [input#3]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:50:14,422 WARN [input#3]                 Book.java:2044 | Error processing stub
+2026-08-02 15:50:14,422 INFO [input#3]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:50:14,446 INFO [input#3]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:50:15,861 INFO [input#3]           DataHolder.java:348  | Stored /sheet#3/BINARY.png
+2026-08-02 15:50:15,862 INFO [input#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-08-02 15:50:15,862 INFO [input#3]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\audiveris-output\input.omr
+2026-08-02 15:50:15,874 INFO [input#3]            SheetStub.java:1655 | Sheet#3 disposed
+2026-08-02 15:50:15,893 INFO [input#3]                 Book.java:2050 | End of Stub#3
+2026-08-02 15:50:15,894 INFO [input#4]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:50:16,010 INFO [input#4]            SheetStub.java:1278 | Loaded image #4 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\input.pdf
+2026-08-02 15:50:16,010 INFO [input#4]       StepMonitoring.java:98   | BINARY
+2026-08-02 15:50:32,835 INFO [input#4]       StepMonitoring.java:98   | SCALE
+2026-08-02 15:50:32,842 WARN [input#4]            SheetStub.java:411  | input#4
+
+ With a too high interline value of 104 pixels,
+ this sheet does not seem to contain multi-line staves.
+
+ This interline value is NOT RELIABLE!
+2026-08-02 15:50:32,843 INFO [input#4]                 Book.java:543  | Created scores: []
+2026-08-02 15:50:32,843 INFO [input#4]            SheetStub.java:1194 | Sheet input#4 flagged as invalid.
+2026-08-02 15:50:32,843 INFO [input#4]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:50:32,843 WARN [input#4]                 Book.java:2044 | Error processing stub
+2026-08-02 15:50:32,843 INFO [input#4]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:50:32,873 INFO [input#4]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:50:34,517 INFO [input#4]           DataHolder.java:348  | Stored /sheet#4/BINARY.png
+2026-08-02 15:50:34,518 INFO [input#4]                Sheet.java:1583 | Stored /sheet#4/sheet#4.xml
+2026-08-02 15:50:34,518 INFO [input#4]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\audiveris-output\input.omr
+2026-08-02 15:50:34,531 INFO [input#4]            SheetStub.java:1655 | Sheet#4 disposed
+2026-08-02 15:50:34,553 INFO [input#4]                 Book.java:2050 | End of Stub#4
+2026-08-02 15:50:34,554 INFO [input#5]       StepMonitoring.java:98   | LOAD
+2026-08-02 15:50:34,652 INFO [input#5]            SheetStub.java:1278 | Loaded image #5 12400x17537 from C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\input.pdf
+2026-08-02 15:50:34,653 INFO [input#5]       StepMonitoring.java:98   | BINARY
+2026-08-02 15:50:50,898 INFO [input#5]       StepMonitoring.java:98   | SCALE
+2026-08-02 15:50:50,905 WARN [input#5]            SheetStub.java:411  | input#5
+
+ With a too high interline value of 104 pixels,
+ this sheet does not seem to contain multi-line staves.
+
+ This interline value is NOT RELIABLE!
+2026-08-02 15:50:50,906 INFO [input#5]                 Book.java:543  | Created scores: []
+2026-08-02 15:50:50,906 INFO [input#5]            SheetStub.java:1194 | Sheet input#5 flagged as invalid.
+2026-08-02 15:50:50,906 INFO [input#5]            SheetStub.java:384  | Sheet closed
+2026-08-02 15:50:50,906 WARN [input#5]                 Book.java:2044 | Error processing stub
+2026-08-02 15:50:50,906 INFO [input#5]                 Book.java:2584 | Book{input} storing
+2026-08-02 15:50:50,931 INFO [input#5]                 Book.java:2565 | Stored /book.xml
+2026-08-02 15:50:52,374 INFO [input#5]           DataHolder.java:348  | Stored /sheet#5/BINARY.png
+2026-08-02 15:50:52,375 INFO [input#5]                Sheet.java:1583 | Stored /sheet#5/sheet#5.xml
+2026-08-02 15:50:52,375 INFO [input#5]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\outputs\pdf-to-musicxml-webapp\.work\5deb3c09-4521-4eb7-84b7-546a0a8996f4\audiveris-output\input.omr
+2026-08-02 15:50:52,390 INFO [input#5]            SheetStub.java:1655 | Sheet#5 disposed
+2026-08-02 15:50:52,408 INFO [input#5]                 Book.java:2050 | End of Stub#5
+2026-08-02 15:50:52,410 INFO [input]                 Book.java:2057 | End of Book{input}
+2026-08-02 15:50:52,410 INFO [input]                 Book.java:596  | Could not export since transcription did not complete successfully
+2026-08-02 15:50:52,411 WARN [input]                  CLI.java:956  | Exception occurred java.lang.Exception: Error in export
+java.lang.Exception: Error in export
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:930)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:361)
+	at org.audiveris.omr.Main.main(Main.java:263)
+	at Audiveris.main(Audiveris.java:50)

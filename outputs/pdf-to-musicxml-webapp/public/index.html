@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PDF to MusicXML</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <nav class="topbar" aria-label="Gorna nawigacja">
+        <a class="brand" href="/" aria-label="PDF to MusicXML">
+          <span class="brand-mark">MXML</span>
+          <span>Score Converter</span>
+        </a>
+        <div class="top-actions">
+          <a href="#converter">Konwerter</a>
+          <a href="#settings">Ustawienia</a>
+        </div>
+      </nav>
+
+      <section class="hero" id="converter">
+        <div class="hero-copy">
+          <p class="eyebrow">PDF TO MUSICXML <span>Beta</span></p>
+          <h1>Konwertuj nuty z PDF do MusicXML</h1>
+          <p class="lead">Wgraj skan albo PDF z partytura, a aplikacja przygotuje plik MusicXML do pobrania i dalszej edycji w MuseScore, Finale, Sibeliusie albo DAW.</p>
+        </div>
+
+        <form class="converter" id="convertForm">
+          <div class="format-tabs" role="tablist" aria-label="Typ pliku">
+            <button class="tab active" type="button" data-kind="pdf">PDF</button>
+            <button class="tab" type="button" data-kind="image">Image</button>
+          </div>
+
+          <label class="dropzone" id="dropzone">
+            <input id="fileInput" name="score" type="file" accept=".pdf,.png,.jpg,.jpeg,application/pdf,image/png,image/jpeg">
+            <span class="upload-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" role="img">
+                <path d="M12 16V4m0 0 4.5 4.5M12 4 7.5 8.5M4 16v2.5A1.5 1.5 0 0 0 5.5 20h13a1.5 1.5 0 0 0 1.5-1.5V16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            <strong id="dropTitle">Przeciagnij PDF z nutami tutaj</strong>
+            <small id="dropHint">albo kliknij, aby wybrac plik</small>
+          </label>
+
+          <div class="file-card hidden" id="fileCard">
+            <div>
+              <strong id="fileName"></strong>
+              <small id="fileMeta"></small>
+            </div>
+            <button class="icon-button" id="clearFile" type="button" aria-label="Usun plik">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            </button>
+          </div>
+
+          <div class="limits">
+            <span>Do 5 MB</span>
+            <span>Do 10 stron PDF</span>
+            <span>PDF lub obraz</span>
+          </div>
+
+          <button class="primary" id="convertButton" type="submit" disabled>
+            <span>Start converting</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m0 0-5-5m5 5-5 5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </form>
+      </section>
+
+      <section class="status-panel" aria-live="polite">
+        <div class="step active" data-step="1">
+          <span>1</span>
+          <div>
+            <strong>Upload</strong>
+            <small>Plik gotowy do wyslania</small>
+          </div>
+        </div>
+        <div class="step" data-step="2">
+          <span>2</span>
+          <div>
+            <strong>OMR</strong>
+            <small>Rozpoznawanie zapisu nutowego</small>
+          </div>
+        </div>
+        <div class="step" data-step="3">
+          <span>3</span>
+          <div>
+            <strong>MusicXML</strong>
+            <small>Pobierz wynik</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="result hidden" id="result">
+        <div>
+          <p class="eyebrow">GOTOWE</p>
+          <h2 id="resultTitle">Plik MusicXML jest gotowy</h2>
+          <p id="resultMessage"></p>
+        </div>
+        <a class="download" id="downloadLink" download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v10m0 0 4-4m-4 4-4-4M5 20h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          Pobierz MusicXML
+        </a>
+      </section>
+
+      <section class="details" id="settings">
+        <article>
+          <h2>Silnik konwersji</h2>
+          <p>Aplikacja jest gotowa na Audiveris CLI. Ustaw `AUDIVERIS_CMD`, jezeli program nie jest w systemowym PATH, a backend zacznie zwracac realny MusicXML z OMR.</p>
+        </article>
+        <article>
+          <h2>Pod nuty jak w przykladzie</h2>
+          <p>Projekt zaklada partytury z wokalem, fortepianem, akordami gitarowymi, tekstem i zmianami metrum. To jest dokladnie typ dokumentu, dla ktorego warto uzyc pelnego OMR zamiast prostego OCR.</p>
+        </article>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

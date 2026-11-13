@@ -1,0 +1,17 @@
+{
+  "command": "C:\\Program Files\\Audiveris\\runtime\\bin\\java.exe",
+  "args": [
+    "--add-exports=java.desktop/sun.awt.image=ALL-UNNAMED",
+    "--enable-native-access=ALL-UNNAMED",
+    "-Dfile.encoding=UTF-8",
+    "-Xms512m",
+    "-Xmx8G",
+    "-cp",
+    "C:\\Program Files\\Audiveris\\app\\*",
+    "Audiveris",
+    "-constant",
+    "org.audiveris.omr.step.LoadStep.maxPixelCount=0",
+    "-constant",
+    "org.audiveris.omr.image.ImageLoading.pdfResolution=72"
+  ]
+}

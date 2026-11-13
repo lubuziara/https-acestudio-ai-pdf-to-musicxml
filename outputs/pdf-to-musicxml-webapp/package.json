@@ -1,0 +1,13 @@
+{
+  "name": "pdf-to-musicxml-webapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Simple PDF/image to MusicXML web app with an Audiveris-ready backend.",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

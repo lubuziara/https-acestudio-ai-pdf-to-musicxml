@@ -1,0 +1,163 @@
+2026-07-08 00:59:16,572 INFO [4077debe-e134-4d63-8b03-f1f2773c0779]                 Book.java:560  | 3 sheets in F:\User\gabno\Downloads\4077debe-e134-4d63-8b03-f1f2773c0779.pdf
+2026-07-08 00:59:16,780 INFO []                 Book.java:2565 | Stored /book.xml
+2026-07-08 00:59:16,781 INFO []                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\work\audiveris-java-manual\4077debe-e134-4d63-8b03-f1f2773c0779.omr
+2026-07-08 00:59:16,789 INFO []                 Book.java:1929 | Book reaching PAGE on sheets:[#1#2#3]
+2026-07-08 00:59:16,791 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | LOAD
+2026-07-08 00:59:17,744 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]            SheetStub.java:1278 | Loaded image #1 2550x3299 from F:\User\gabno\Downloads\4077debe-e134-4d63-8b03-f1f2773c0779.pdf
+2026-07-08 00:59:17,749 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | BINARY
+2026-07-08 00:59:18,415 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | SCALE
+2026-07-08 00:59:18,440 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]         ScaleBuilder.java:255  | Beam  guessed height: 10 -- mid of [5..16]
+2026-07-08 00:59:18,441 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]         ScaleBuilder.java:271  | Beam measured height:  8 -- 0.27 of [5..16] range at 332% of needed quorum
+2026-07-08 00:59:18,442 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]         ScaleBuilder.java:401  | Normalized black jitter: 5.88 %
+2026-07-08 00:59:18,442 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]            ScaleStep.java:65   | Scale{ interline(16,17,17) line(1,2,2) beam(8)}
+2026-07-08 00:59:18,443 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | GRID
+2026-07-08 00:59:19,045 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-07-08 00:59:19,102 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]    ClustersRetriever.java:326  | Retrieved raw line clusters: 8 of sizes [5] with interline(16,17,17)
+2026-07-08 00:59:19,434 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]            PeakGraph.java:310  | Systems: #1[1, 2] #2[3, 4, 5] #3[6, 7, 8]
+2026-07-08 00:59:19,910 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]        SystemManager.java:134  | Indentation detected for system #1
+2026-07-08 00:59:19,912 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]        SystemManager.java:779  | 2 parts along 3 systems
+2026-07-08 00:59:19,913 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]                 Book.java:543  | Created scores: [{Score 1}]
+2026-07-08 00:59:19,915 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | HEADERS
+2026-07-08 00:59:21,438 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | STEM_SEEDS
+2026-07-08 00:59:21,484 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]        StemSeedsStep.java:86   | stem(2 max:3)
+2026-07-08 00:59:21,569 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | BEAMS
+2026-07-08 00:59:23,905 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | LEDGERS
+2026-07-08 00:59:24,331 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | HEADS
+2026-07-08 00:59:27,623 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.3,R:-0.4] NOTEHEAD_BLACK[L:0.4,R:-0.1]}
+2026-07-08 00:59:27,624 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | STEMS
+2026-07-08 00:59:29,582 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | REDUCTION
+2026-07-08 00:59:29,812 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]        ReductionStep.java:105  | Stems free length median value: 58 pixels, 3.4 interlines
+2026-07-08 00:59:29,822 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | CUE_BEAMS
+2026-07-08 00:59:29,823 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-07-08 00:59:29,824 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | TEXTS
+2026-07-08 00:59:30,031 WARN [4077debe-e134-4d63-8b03-f1f2773c0779#1]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-07-08 00:59:30,032 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-07-08 00:59:30,042 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | MEASURES
+2026-07-08 00:59:30,056 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]                 Page.java:307  | 11 raw measures: [3 in system#1, 4 in system#2, 4 in system#3]
+2026-07-08 00:59:30,057 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | CHORDS
+2026-07-08 00:59:30,082 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | CURVES
+2026-07-08 00:59:31,346 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]         SlursBuilder.java:240  | Slurs: 19
+2026-07-08 00:59:31,376 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]      SegmentsBuilder.java:155  | Segments: 24
+2026-07-08 00:59:31,386 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | SYMBOLS
+2026-07-08 00:59:33,038 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | LINKS
+2026-07-08 00:59:33,087 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6470{(0.150) staff:5 QUINDICESIMA BASSA} at java.awt.Point[x=1306,y=1861]
+2026-07-08 00:59:33,163 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | RHYTHMS
+2026-07-08 00:59:33,241 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]                Voice.java:257  | Measure{#11P1} Voice{#1 excess:1/8} too long
+2026-07-08 00:59:33,244 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]          StackRhythm.java:224  | S3 MeasureStack#11 no correct rhythm
+2026-07-08 00:59:33,246 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]       StepMonitoring.java:98   | PAGE
+2026-07-08 00:59:33,255 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]                Voice.java:257  | Measure{#11P1} Voice{#1 excess:1/8} too long
+2026-07-08 00:59:33,258 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]                 Book.java:2584 | Book{4077debe-e134-4d63-8b03-f1f2773c0779} storing
+2026-07-08 00:59:33,350 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]                 Book.java:2565 | Stored /book.xml
+2026-07-08 00:59:33,552 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]           DataHolder.java:348  | Stored /sheet#1/BINARY.png
+2026-07-08 00:59:34,718 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]                Sheet.java:1583 | Stored /sheet#1/sheet#1.xml
+2026-07-08 00:59:34,718 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\work\audiveris-java-manual\4077debe-e134-4d63-8b03-f1f2773c0779.omr
+2026-07-08 00:59:34,725 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]            SheetStub.java:1655 | Sheet#1 disposed
+2026-07-08 00:59:34,763 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#1]                 Book.java:2050 | End of Stub#1
+2026-07-08 00:59:34,764 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | LOAD
+2026-07-08 00:59:35,196 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]            SheetStub.java:1278 | Loaded image #2 2550x3299 from F:\User\gabno\Downloads\4077debe-e134-4d63-8b03-f1f2773c0779.pdf
+2026-07-08 00:59:35,197 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | BINARY
+2026-07-08 00:59:35,992 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | SCALE
+2026-07-08 00:59:36,019 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]         ScaleBuilder.java:255  | Beam  guessed height: 10 -- mid of [5..16]
+2026-07-08 00:59:36,019 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]         ScaleBuilder.java:271  | Beam measured height:  8 -- 0.27 of [5..16] range at 242% of needed quorum
+2026-07-08 00:59:36,020 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]         ScaleBuilder.java:401  | Normalized black jitter: 5.88 %
+2026-07-08 00:59:36,020 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]            ScaleStep.java:65   | Scale{ interline(16,17,17) line(1,2,2) beam(8)}
+2026-07-08 00:59:36,021 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | GRID
+2026-07-08 00:59:36,380 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-07-08 00:59:36,415 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]    ClustersRetriever.java:326  | Retrieved raw line clusters: 12 of sizes [5] with interline(16,17,17)
+2026-07-08 00:59:36,657 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]            PeakGraph.java:310  | Systems: #1[1, 2, 3] #2[4, 5, 6] #3[7, 8, 9] #4[10, 11, 12]
+2026-07-08 00:59:36,942 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        SystemManager.java:779  | 2 parts along 4 systems
+2026-07-08 00:59:36,942 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | HEADERS
+2026-07-08 00:59:37,286 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | STEM_SEEDS
+2026-07-08 00:59:37,327 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        StemSeedsStep.java:86   | stem(3 max:3)
+2026-07-08 00:59:37,341 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | BEAMS
+2026-07-08 00:59:39,379 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | LEDGERS
+2026-07-08 00:59:39,577 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | HEADS
+2026-07-08 00:59:43,693 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.3,R:0.1] NOTEHEAD_BLACK[L:0.4,R:-0.1]}
+2026-07-08 00:59:43,694 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | STEMS
+2026-07-08 00:59:44,457 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | REDUCTION
+2026-07-08 00:59:44,546 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        ReductionStep.java:105  | Stems free length median value: 58 pixels, 3.4 interlines
+2026-07-08 00:59:44,549 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | CUE_BEAMS
+2026-07-08 00:59:44,550 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-07-08 00:59:44,550 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | TEXTS
+2026-07-08 00:59:44,665 WARN [4077debe-e134-4d63-8b03-f1f2773c0779#2]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-07-08 00:59:44,665 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-07-08 00:59:44,667 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | MEASURES
+2026-07-08 00:59:44,668 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]                 Page.java:307  | 13 raw measures: [3 in system#1, 4 in system#2, 3 in system#3, 3 in system#4]
+2026-07-08 00:59:44,668 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | CHORDS
+2026-07-08 00:59:44,676 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | CURVES
+2026-07-08 00:59:45,696 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]         SlursBuilder.java:240  | Slurs: 0
+2026-07-08 00:59:45,714 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]      SegmentsBuilder.java:155  | Segments: 33
+2026-07-08 00:59:45,715 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | SYMBOLS
+2026-07-08 00:59:47,224 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | LINKS
+2026-07-08 00:59:47,227 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#5918{(0.195) staff:1 QUINDICESIMA ALTA} at java.awt.Point[x=1150,y=217]
+2026-07-08 00:59:47,250 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6504{(0.204) staff:7 QUINDICESIMA BASSA} at java.awt.Point[x=1083,y=1875]
+2026-07-08 00:59:47,250 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6513{(0.155) staff:7 QUINDICESIMA BASSA} at java.awt.Point[x=1083,y=1875]
+2026-07-08 00:59:47,250 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6574{(0.368) staff:9 QUINDICESIMA BASSA} at java.awt.Point[x=1155,y=2339]
+2026-07-08 00:59:47,262 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        SymbolsLinker.java:258  | No chord linked to OctaveShiftInter#6846{(0.368) staff:10 QUINDICESIMA ALTA} at java.awt.Point[x=1155,y=2339]
+2026-07-08 00:59:47,269 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | RHYTHMS
+2026-07-08 00:59:47,270 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]           PageRhythm.java:199  | {Page#2.1} Time value reused from sheet#1
+2026-07-08 00:59:47,278 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]        MeasureRhythm.java:1044 | Measure{#3P2} No timeOffset for HeadChordInter#4534{(0.914/0.914) staff:2 slot#2 dur:1/2}
+2026-07-08 00:59:47,278 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]   AbstractChordInter.java:627  | Measure{#3P2} No timeOffset for HeadChordInter#4534{(0.914/0.914) staff:2 slot#2 dur:1/2}
+2026-07-08 00:59:47,278 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]          StackRhythm.java:224  | S1 MeasureStack#3 no correct rhythm
+2026-07-08 00:59:47,295 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]       StepMonitoring.java:98   | PAGE
+2026-07-08 00:59:47,298 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]                 Book.java:2584 | Book{4077debe-e134-4d63-8b03-f1f2773c0779} storing
+2026-07-08 00:59:47,348 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]                 Book.java:2565 | Stored /book.xml
+2026-07-08 00:59:47,468 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]           DataHolder.java:348  | Stored /sheet#2/BINARY.png
+2026-07-08 00:59:47,923 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]                Sheet.java:1583 | Stored /sheet#2/sheet#2.xml
+2026-07-08 00:59:47,924 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\work\audiveris-java-manual\4077debe-e134-4d63-8b03-f1f2773c0779.omr
+2026-07-08 00:59:47,932 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]            SheetStub.java:1655 | Sheet#2 disposed
+2026-07-08 00:59:47,959 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#2]                 Book.java:2050 | End of Stub#2
+2026-07-08 00:59:47,960 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | LOAD
+2026-07-08 00:59:48,038 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]            SheetStub.java:1278 | Loaded image #3 2550x3299 from F:\User\gabno\Downloads\4077debe-e134-4d63-8b03-f1f2773c0779.pdf
+2026-07-08 00:59:48,039 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | BINARY
+2026-07-08 00:59:48,550 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | SCALE
+2026-07-08 00:59:48,552 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]         ScaleBuilder.java:255  | Beam  guessed height: 10 -- mid of [5..16]
+2026-07-08 00:59:48,552 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]         ScaleBuilder.java:271  | Beam measured height:  8 -- 0.27 of [5..16] range at 230% of needed quorum
+2026-07-08 00:59:48,552 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]         ScaleBuilder.java:401  | Normalized black jitter: 5.88 %
+2026-07-08 00:59:48,552 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]            ScaleStep.java:65   | Scale{ interline(16,17,17) line(1,2,2) beam(8)}
+2026-07-08 00:59:48,552 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | GRID
+2026-07-08 00:59:48,586 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       LinesRetriever.java:1500 | Global slope: 0.00000
+2026-07-08 00:59:48,589 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]    ClustersRetriever.java:326  | Retrieved raw line clusters: 3 of sizes [5] with interline(16,17,17)
+2026-07-08 00:59:48,600 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]            PeakGraph.java:310  | Systems: #1[1, 2, 3]
+2026-07-08 00:59:48,693 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]        SystemManager.java:779  | 2 parts along 1 system
+2026-07-08 00:59:48,693 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | HEADERS
+2026-07-08 00:59:48,731 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | STEM_SEEDS
+2026-07-08 00:59:48,761 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]        StemSeedsStep.java:86   | stem(3 max:3)
+2026-07-08 00:59:48,764 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | BEAMS
+2026-07-08 00:59:50,515 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | LEDGERS
+2026-07-08 00:59:50,561 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | HEADS
+2026-07-08 00:59:51,498 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]        HeadSeedTally.java:235  | Scale information: HeadSeeds{NOTEHEAD_VOID[R:0.2] NOTEHEAD_BLACK[R:-0.0]}
+2026-07-08 00:59:51,498 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | STEMS
+2026-07-08 00:59:51,571 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | REDUCTION
+2026-07-08 00:59:51,590 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]        ReductionStep.java:105  | Stems free length median value: 58 pixels, 3.4 interlines
+2026-07-08 00:59:51,591 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | CUE_BEAMS
+2026-07-08 00:59:51,592 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]         CueBeamsStep.java:81   | Step CUE_BEAMS is skipped because small heads switch is off
+2026-07-08 00:59:51,592 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | TEXTS
+2026-07-08 00:59:51,664 WARN [4077debe-e134-4d63-8b03-f1f2773c0779#3]         TesseractOCR.java:335  | The collection of supported languages is empty
+2026-07-08 00:59:51,664 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]              OcrUtil.java:106  | Missing support for 'eng' language(s)
+2026-07-08 00:59:51,665 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | MEASURES
+2026-07-08 00:59:51,666 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]                 Page.java:307  | 3 raw measures: [3 in system#1]
+2026-07-08 00:59:51,666 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | CHORDS
+2026-07-08 00:59:51,667 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | CURVES
+2026-07-08 00:59:52,038 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]         SlursBuilder.java:240  | Slurs: 0
+2026-07-08 00:59:52,040 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]      SegmentsBuilder.java:155  | Segments: 9
+2026-07-08 00:59:52,043 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | SYMBOLS
+2026-07-08 00:59:52,361 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | LINKS
+2026-07-08 00:59:52,372 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | RHYTHMS
+2026-07-08 00:59:52,372 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]           PageRhythm.java:199  | {Page#3.1} Time value reused from sheet#2
+2026-07-08 00:59:52,381 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]       StepMonitoring.java:98   | PAGE
+2026-07-08 00:59:52,382 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]                 Book.java:2584 | Book{4077debe-e134-4d63-8b03-f1f2773c0779} storing
+2026-07-08 00:59:52,421 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]                 Book.java:2565 | Stored /book.xml
+2026-07-08 00:59:52,583 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]           DataHolder.java:348  | Stored /sheet#3/BINARY.png
+2026-07-08 00:59:52,692 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]                Sheet.java:1583 | Stored /sheet#3/sheet#3.xml
+2026-07-08 00:59:52,692 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]                 Book.java:2525 | Book stored as C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\work\audiveris-java-manual\4077debe-e134-4d63-8b03-f1f2773c0779.omr
+2026-07-08 00:59:52,703 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]            SheetStub.java:1655 | Sheet#3 disposed
+2026-07-08 00:59:52,734 INFO [4077debe-e134-4d63-8b03-f1f2773c0779#3]                 Book.java:2050 | End of Stub#3
+2026-07-08 00:59:52,734 INFO [4077debe-e134-4d63-8b03-f1f2773c0779]                 Book.java:2057 | End of Book{4077debe-e134-4d63-8b03-f1f2773c0779}
+2026-07-08 00:59:53,268 INFO [4077debe-e134-4d63-8b03-f1f2773c0779]            SheetStub.java:1000 | Loaded /sheet#1/sheet#1.xml
+2026-07-08 00:59:53,584 INFO [4077debe-e134-4d63-8b03-f1f2773c0779]            SheetStub.java:1000 | Loaded /sheet#2/sheet#2.xml
+2026-07-08 00:59:53,736 INFO [4077debe-e134-4d63-8b03-f1f2773c0779]            SheetStub.java:1000 | Loaded /sheet#3/sheet#3.xml
+2026-07-08 00:59:54,116 INFO [4077debe-e134-4d63-8b03-f1f2773c0779]      PartwiseBuilder.java:2706 | Exporting sheet(s): [#1#2#3]
+2026-07-08 00:59:54,117 INFO [4077debe-e134-4d63-8b03-f1f2773c0779]                 Part.java:351  | Sheet#1 System#1 Part#2{ staves[1,2] configs:[5,5]} dummyPart id: 1
+2026-07-08 00:59:54,281 INFO [4077debe-e134-4d63-8b03-f1f2773c0779]        ScoreExporter.java:164  | Score 4077debe-e134-4d63-8b03-f1f2773c0779 exported to C:\Users\gabno\Documents\Codex\2026-07-07\https-acestudio-ai-pdf-to-musicxml\work\audiveris-java-manual\4077debe-e134-4d63-8b03-f1f2773c0779.mxl
+2026-07-08 00:59:54,339 INFO [4077debe-e134-4d63-8b03-f1f2773c0779]                Score.java:181  | Closing {Score 1}
